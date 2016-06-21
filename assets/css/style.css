@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    color: #333;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*/
+@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css")
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.429;
+}
+*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "Open Sans",serif;
+    font-weight: 300;
+}
+h1, h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.navtop {
+    background-color: #222222;
+    border-bottom: 1px solid #080808;
+}
+.navbar-nav > li > a {
+    color: #999999;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.navtop .active > a {
+    background: none repeat scroll 0 0 #000000;
+}
+.navtop .nav > li > a:focus {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.navtop .nav > li > a:hover{
+    background-color: #000000;
+}
+.jumbotron .media {
+    margin: 50px 0;
+}
+.jumbotron h1{
+    font-size: 63px;
+}
+.jumbotron .media-body h1 {
+    margin-top: 100px;
+}
+.title span {
+    font-weight: 900;
+}
+.jumbotron p {
+    color: #ffffff;
+    font-family: Open Sans,serif;
+    line-height: 1.4;
+    padding: 20px 0;
+}
+p {
+    margin: 0 0 10px;
+}
+.jumbotron {
+    background: url(../images/intro-bg.jpg) repeat fixed 0 0 rgba(0, 0, 0, 0);
+}
+.jumbotron h1 {
+    color: #ffffff;
+}
+.col-md-4:first-child .icon-stack-base {
+    color: #52ad81;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+
+.features p{
+    margin: 30px 0;
+}
+.col-md-4:nth-child(2) .icon-circle {
+    color: #ff0000;
+}
+.col-md-4:nth-child(3) .icon-circle {
+    color:#51a9d6;
+}
+#slider-sec {
+    background: none repeat scroll 0 0 #52ad81;
+    color: #ffffff;
+}
+#slider-sec h2{
+    margin-bottom: 20px;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+.featured-icon {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 50px;
+    color: #52ad81;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 35px;
+}
+.list-group-item.active {
+    background: none repeat scroll 0 0 #389968;
+    border: 1px solid #389968;
+}
+.list-group-item-heading {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.list-group-item:hover h4,.list-group-item:hover p {
+    color: #389968;
+}
+.speaker-header .arrows {
+    float: right;
+    position: relative;
+    right: 15px;
+    top: -35px;
+}
+.speaker-header .arrows > a > i {
+    color: #d3d3d3;
+    font-size: 30px;
+}
+
+/*Responsive Design - Our Catalog*/
+
+
+/*Responsive Design - Our Catalog*/
+
+@media screen and (min-width: 320px) and (max-width: 980px) {
+    .home .catelog_box {
+        margin-top: 20px;
+    }
+    .plus {
+        font-size: 100px;
+    }
+    .plus-icon-circle {
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .catelog_box .overlay{
+        padding: 24% 0;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 481px){
+    .catelog_box .overlay{
+        padding: 25% 0;
+    }
+}
+
+@media screen and (min-width: 482px) and (max-width: 601px){
+    .catelog_box .overlay{
+        width: 352px;
+        left: 49px;
+        padding: 23% 0;        
+    }
+}
+@media screen and (min-width: 602px) and (max-width: 768px){
+    .catelog_box .overlay{
+        width: 359px;
+        left: 109px; 
+        padding: 18% 0;  
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px){
+    .catelog_box .overlay{ 
+        padding: 21% 0;  
+    }
+}
+
+/*Wardrobe page responsive*/
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 45%;
+	}
+    #overlay {
+        padding: 34% 0;
+    }
+    .plus-icon-circle {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+    .plus {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px){
+    .catelog_box .overlay{ 
+        padding: 33% 0;  
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 480px){
+    .catelog_box .overlay{ 
+        padding: 39% 0;  
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: left;
+    margin: 0 2.6% 1.992em 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+	    float: left;
+	}
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 45%;
+	}
+	#overlay {
+	    padding: 51px 0;
+	}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px){
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+	    float: left;
+	}
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 45%;
+	}
+	#overlay {
+	    padding: 78px 0;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 35%;
+	}
+	#overlay {
+	    padding: 77px 0;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 800px){
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 20%;
+	}
+	#overlay {
+	    padding: 47px 0;
+	}
+
+	.plus-icon-circle {
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	}
+
+	.plus {
+	    font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    margin: 0 2.3% 2.992em;
+	    width: 34%;
+	}
+	#overlay {
+	    padding: 74px 0;
+	}
+
+.plus-icon-circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.plus {
+	    font-size: 100px;
+	}
+}
