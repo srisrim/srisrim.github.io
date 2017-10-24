@@ -4,3 +4,113 @@
     max-height: 40px;
     max-width: 50px;
 }
+
+/*JS Dice Game Css Goes Here*/
+
+.mb-20{
+    margin-bottom: 20px;
+}
+#js-app {
+    background: #01848f;
+    padding: 20px;
+}
+#js-app .page-header {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+#js-app button{
+    color: #01848f;
+    background-color: #ffffff;
+    border-color: #01848f;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgb(1, 132, 143);
+}
+#js-app .btn-primary:hover {
+    color: #fff;
+    background-color: #01848f;
+    border-color: #ffffff;
+}
+#js-app a {
+    color: #fff;
+    text-decoration: none;
+}
+.score {
+    text-align: center;
+    padding: 8px 0;
+    margin-bottom: 5%;
+}
+.score .form-control {
+    max-width: 150px;
+    display: inline-block;
+    padding: 18px;
+    margin: 0 0 16px;
+    box-shadow: 0 0 0 1px rgb(1, 132, 143);
+}
+.player-card  {
+    text-align: center;
+}
+.active {
+    background: #b9dbde;
+}
+.dice-block {
+    text-align: center;
+    padding: 20% 0;
+}
+.dice-block > div {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#dice-img img {
+    max-width: 40px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 4px;
+}
+.active-user {
+    font-size: 1rem; 
+}
+.user-status {
+    display: none;
+}
+.active .user-status {
+    display: inline-block;
+}
+#js-app .card-title {
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #01848f;
+}
+.user-status i {
+    color: #8BC34A;
+}
+.rules-card .list-group{
+    padding-left: 40px;
+}
+.rules-card .list-group-item {
+    border: none;
+    display: list-item;
+    list-style-type: circle;
+}
+#js-app .badge {
+    font-size: 1.2em;
+    background-color: #01848f;
+}
+.winner {
+    font-weight: bold;
+}
+.dice-block .new-game .btn {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 auto;
+    }
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+/*JS Dice Game Css Ends Here*/
